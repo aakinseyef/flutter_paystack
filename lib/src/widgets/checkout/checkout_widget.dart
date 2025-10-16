@@ -189,6 +189,7 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 'Pay',
                 style: TextStyle(
                     fontSize: 14.0, color: context.textTheme().displayLarge?.color,
+                  )
               ),
               SizedBox(
                 width: 5.0,
