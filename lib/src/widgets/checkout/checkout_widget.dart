@@ -186,10 +186,11 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(
-                'Pay',
-                style: TextStyle(
-                    fontSize: 14.0, color: context.textTheme().displayLarge?.color,
-                  )
+                  "Pay",
+                  style: TextStyle(
+                      fontSize: 14.0, 
+                      color: context.textTheme().displayLarge?.color,
+                  ),
               ),
               SizedBox(
                 width: 5.0,
